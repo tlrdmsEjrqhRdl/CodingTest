@@ -3,8 +3,8 @@ input = sys.stdin.readline
 
 a, b = map(input().split())
 if(a < b):
-    print(<)
+    print("<")
 elif(a > b):
-    print(>)
+    print(">")
 elif(a == b):
-    print(==)
+    print("==")
