@@ -4,7 +4,7 @@ input = sys.stdin.readline
 hour, minutes = map(int, input().split())
 time = int(input())
 
-if((minutes + time) > 60):
+if((minutes + time) => 60):
     if(hour == 23):
         print("0", minutes + time - 60)
     print(hour+1, minutes+ time-60)
