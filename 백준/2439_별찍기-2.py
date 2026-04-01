@@ -3,9 +3,9 @@ input = sys.stdin.readline
 
 n = int(input())
 
-for i in range(1, n+1):
-    for j in range(n, n-i):
-        print(" ", end=" ")
-    for k in range(1, i):
-        print("*", end=" ")
+for i in range(1, n + 1):
+    for _ in range(n - i):
+        print(" ", end="")
+    for _ in range(i):
+        print("*", end="")
     print()
